@@ -79,22 +79,40 @@ The following sections describe project areas from my experience.
 Repository links and public demonstrations will be added where
 available.
 
+
+Selected projects demonstrating data engineering, financial analytics, data quality, and applied machine learning. Public repositories are linked where available.
+
 ### 01. Financial Reporting & Data Reconciliation
 
-**Focus:** Data Engineering · Financial Analytics
+**Focus:** Data Engineering · Financial Analytics · Data Quality
 
-Designed and developed cloud-based data pipelines and reporting
-datasets to support financial reporting, transaction reconciliation,
-and exception monitoring.
+An end-to-end portfolio project that reconciles financial transactions against payment records, classifies exceptions, and produces reporting-ready datasets.
 
-**Key areas**
-- SQL transformations and reusable data models
-- Snowflake, dbt, Python, and Airflow
-- Financial data validation and reconciliation
-- Exception monitoring and reporting automation
-- Data quality controls for business-critical reporting
+**What it demonstrates**
+- Python-based transaction reconciliation and exception reporting
+- SQL transformations and dbt staging, intermediate, and mart models
+- DuckDB for local analytical processing without a cloud warehouse
+- Data quality checks, reconciliation invariants, and automated testing
+- GitHub Actions CI for Python tests and dbt builds
 
-**Tech stack:** SQL · Python · Snowflake · dbt · Airflow · AWS
+**Illustrative results from fictional data**
+
+| Metric | Result |
+|---|---:|
+| Transaction source rows | 12 |
+| Matched records | 8 |
+| Missing payments | 2 |
+| Amount mismatches | 1 |
+| Orphan payments | 1 |
+| Duplicate transaction rows isolated | 1 |
+
+**Tech stack:** Python · SQL · dbt · DuckDB · Pytest · GitHub Actions
+
+**Repository:** [View source code and documentation](https://github.com/HHHZZj99/financial-reporting-data-reconciliation)
+
+[View automated CI checks](https://github.com/HHHZZj99/financial-reporting-data-reconciliation/actions)
+
+*All data is synthetic and created for demonstration purposes.*
 
 
 ---
