@@ -207,9 +207,9 @@ Summer School — Machine Learning, Representation Learning
 & Generative AI
 
 **Certifications**
-- AWS Certified Developer – Associate (2024)
 - Snowflake SnowPro Core COF-C03 (2026)
 - Snowflake Data Science Badge (2025)
+- AWS Certified Developer – Associate (2024)
 - IBM Data Science Professional Certificate (2024)
 - Google Data Analytics Professional Certificate (2022)
 
