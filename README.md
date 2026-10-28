@@ -75,11 +75,6 @@ and business decision-making.
 
 ## Featured Projects
 
-The following sections describe project areas from my experience.
-Repository links and public demonstrations will be added where
-available.
-
-
 Selected projects demonstrating data engineering, financial analytics, data quality, and applied machine learning. Public repositories are linked where available.
 
 ### 01. Financial Reporting & Data Reconciliation
