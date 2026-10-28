@@ -96,7 +96,6 @@ and exception monitoring.
 
 **Tech stack:** SQL · Python · Snowflake · dbt · Airflow · AWS
 
-**Repository:** [Add public project link]
 
 ---
 
@@ -117,7 +116,6 @@ data patterns.
 
 **Tech stack:** Python · Pandas · NumPy · Machine Learning
 
-**Repository:** [Add public project link]
 
 ---
 
@@ -137,7 +135,7 @@ reliability of data transformations and deployment workflows.
 
 **Tech stack:** SQL · dbt · Python · Git · Bitbucket · CI/CD
 
-**Repository:** [Add public project link]
+
 
 ---
 
@@ -178,7 +176,6 @@ Leonardo.
 
 **Tech stack:** Python · ETL · Machine Learning
 
-**Repository:** [Add public project link, if shareable]
 
 ---
 
