@@ -155,8 +155,6 @@ commercial, operational, customer, and financial decision-making.
 
 **Tech stack:** SQL · Tableau · Power BI · Excel · Python
 
-**Repository:** [Add public project link]
-
 ---
 
 ### 05. Machine Learning Research Project
