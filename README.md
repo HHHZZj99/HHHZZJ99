@@ -114,21 +114,27 @@ An end-to-end portfolio project that reconciles financial transactions against p
 
 ### 02. Financial Forecasting & Anomaly Detection
 
-**Focus:** Data Science · Predictive Analytics
+**Focus:** Financial Analytics · Predictive Modelling · Anomaly Detection
 
-Explored machine learning and statistical techniques for revenue
-forecasting, variance analysis, and the identification of unusual
-data patterns.
+Built a reproducible Python pipeline to forecast synthetic daily revenue, benchmark model performance against a seasonal-naive baseline, and flag unusual forecast residuals for investigation.
 
-**Methods**
-- ARIMA for time-series forecasting
-- Gradient Boosting for predictive modelling
+**What it demonstrates**
+- Time-aware training and testing to reduce temporal leakage
+- Feature engineering using historical lags, rolling statistics, and calendar features
+- Forecast evaluation using MAE, RMSE, and WAPE
 - Isolation Forest for anomaly detection
-- Python-based data preparation and analysis
-- Visualisation and communication of analytical findings
+- Automated tests and GitHub Actions CI
 
-**Tech stack:** Python · Pandas · NumPy · Machine Learning
+**Illustrative results on synthetic data**
+- Gradient boosting WAPE: 4.65%
+- Seven-day seasonal-naive baseline WAPE: 5.90%
+- Four planted test-period events flagged; additional alerts require review
 
+**Tech stack:** Python · pandas · scikit-learn · pytest · GitHub Actions
+
+**Repository:** [View source code and results](https://github.com/HHHZZj99/financial-forecasting-anomaly-detection)
+
+*All data is synthetic. Anomaly alerts are investigation candidates, not confirmed errors.*
 
 ---
 
